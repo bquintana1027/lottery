@@ -21,7 +21,6 @@ public class Shuffler {
     // TODO Perform a Fisher-Yates shuffle.
     return draw(data.length);
   }
-
   public int[] draw(int size) throws  IllegalArgumentException {
     if (size > data.length) {
       throw new IllegalArgumentException();
